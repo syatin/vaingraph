@@ -1,0 +1,217 @@
+@font-face {
+  font-family: 'Northwood-High';
+  src: url('../fonts/Northwood-High.ttf'); /* IE9 Compat Modes */
+  src: url('../fonts/Northwood-High.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+html, body {
+    background: #F3F5F6;
+}
+body {
+  padding-bottom: 16px;
+}
+/* modify vainglory-icons-font */
+i[class^="vg-"],
+i[class*=" vg-"] {
+  vertical-align: middle;
+}
+.color-build-wp {
+  rgb(241, 104, 93);
+}
+.color-build-cp {
+  color: rgb(93, 180, 241);
+}
+.hero-icon {
+  width: 52px;
+}
+/* ---------------------------------------- *
+  Template
+ * ---------------------------------------- */
+
+.vaingraph-navbar {
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+.vaingraph-logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 10px auto;
+  width: 60px;
+  height: 40px;
+  display: inline-block;
+  background: url(../img/vaingraph-logo-w.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.language-select-wrapper {
+  float:right;
+}
+.language-select {
+  display: inline-block;
+  height: 40px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+.language-select img {
+  max-height: 100%;
+  vertical-align: inherit;
+}
+.dropdown-menu {
+  background: rgba(0, 0, 0, 0.8);
+  margin-bottom: 8px;
+}
+.dropdown-menu .dropdown-item {
+  color: rgba(255,255,255,.5);
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+}
+.page-container > *:first-child {
+  padding-top: 68px;
+}
+.page-container .card {
+  margin-bottom: 12px;
+}
+.page-container .card:not(:only-child) {
+  margin-right: 6px;
+  margin-left: 6px;
+}
+.page-container .card:not(:only-child):first-child {
+  margin-left: 0;
+}
+.page-container .card:not(:only-child):last-child {
+  margin-right: 0;
+}
+
+footer {
+  border-top : 1px solid rgba(0,0,0,.1);
+  margin-top: 12px;
+  padding-top: 20px;
+}
+footer p {
+  text-align: center;
+  font-size: 82%;
+  color: #999;
+}
+footer .link-to-vainglory a {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  color: #999;
+}
+footer .link-to-vainglory a i {
+  font-size: 90px;
+}
+
+
+.well {
+    padding: 1rem 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+    margin-bottom: 12px;
+}
+
+.page-header {
+  height: 160px;
+  background-image: url(../img/5v5map.jpg);
+  background-position: 0, 0;
+  background-size: cover;
+  position: relative;
+}
+
+.page-header .fog {
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 160px;
+}
+.page-header .page-header-content {
+  position: relative;
+  z-index: 10;
+}
+
+.page-header .page-header-content.gamemode-5v5 {
+  position: relative;
+}
+.page-header .page-header-content.gamemode-5v5::after {
+  position: absolute;
+  top: 0;
+  right: 12px;
+  content: ' ';
+  width: 80px;
+  height: 80px;
+  background-color: transparent;
+  background-image: url(../img/vainglory-5v5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page-header .page-header-icon {
+  width: 80px;
+  height: 80px;
+  float : left;
+}
+.page-header h1 {
+  color: #fff;
+  font-family: "Northwood-High";
+  text-indent: 20px;
+  margin-bottom: 0;
+}
+.page-header .page-header-sub {
+  color: #fff;
+  text-indent: 20px;
+  margin-bottom: 0;
+}
+.page-header .page-header-sub i {
+}
+
+.hero-filter {
+    background: #fff;
+    padding-top: 8px;
+    height: 54px;
+}
+
+/* ---------------------------------------- *
+  Hero stat content
+ * ---------------------------------------- */
+
+.hero-stat-content {
+    
+}
+.hero-stat-menu {
+  margin: 12px 0;
+  border-radius: 4px;
+  width: 100%;
+  /*box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, .15);*/
+}
+.hero-stat-menu .btn {
+  border: 1px solid #ccc;
+  font-size: 91%;
+  height: 38px;
+}
+.hero-stat-menu .btn-primary,
+.hero-stat-menu .btn-primary:hover {
+  background-color: #509BDD;
+}
+.hero-stat-menu .btn-light {
+  color: #666;
+}
+.hero-stat-menu .btn-light:hover {
+  color: #fff;
+  background-color: #509BDD;
+}
+
+
+.hero-list-content .card {
+  width: 100px;
+}

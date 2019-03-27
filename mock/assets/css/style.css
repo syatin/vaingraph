@@ -14,6 +14,9 @@ i[class^="vg-"],
 i[class*=" vg-"] {
   vertical-align: middle;
 }
+table {
+  background: #fff;
+}
 .color-build-wp {
   rgb(241, 104, 93);
 }
@@ -22,6 +25,9 @@ i[class*=" vg-"] {
 }
 .hero-icon {
   width: 52px;
+}
+select.form-control {
+  padding: 2px 4px;
 }
 /* ---------------------------------------- *
   Template
@@ -213,5 +219,15 @@ footer .link-to-vainglory a i {
 
 
 .hero-list-content .card {
-  width: 100px;
+  width: 98px !important;
+  word-break: break-all;
+  text-align: center;
+  font-size: 82%;
+}
+.hero-list-content .card .hero-icon {
+  margin: 4px auto 8px auto;
+}
+
+.hero-icon-sm {
+  height: 24px;
 }

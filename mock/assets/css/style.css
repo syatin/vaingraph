@@ -35,6 +35,7 @@ select.form-control {
 
 .vaingraph-navbar {
   background: rgba(0, 0, 0, 0.8) !important;
+  font-size: 91%;
 }
 .vaingraph-logo {
   position: absolute;
@@ -187,6 +188,15 @@ footer .link-to-vainglory a i {
     height: 54px;
 }
 
+/*
+  Index
+  */
+.eyecatch {
+  background-image: url(../img/vcp-asset-pack/Taka_School_Days_L.jpg);
+  background-size: cover;
+  color: #fff;
+  text-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
 /* ---------------------------------------- *
   Hero stat content
  * ---------------------------------------- */

@@ -111,13 +111,13 @@
             <tr>
               <th scope="row">1</th>
               <td>
-                <a href="hero.html"
+                <nuxt-link to="/hero"
                   ><img
                     class="hero-icon-sm rounded-circle border"
                     src="~/assets/img/heroes/celeste.png"
                     alt="celeste"
                   />
-                  セレス</a
+                  セレス</nuxt-link
                 >
               </td>
               <td>CP</td>
@@ -132,13 +132,13 @@
             <tr>
               <th scope="row">2</th>
               <td>
-                <a href="hero.html"
+                <nuxt-link to="/hero"
                   ><img
                     class="hero-icon-sm rounded-circle border"
                     src="~/assets/img/heroes/magnus.png"
                     alt="magnus"
                   />
-                  マグナス</a
+                  マグナス</nuxt-link
                 >
               </td>
               <td>CP</td>
@@ -153,13 +153,13 @@
             <tr>
               <th scope="row">3</th>
               <td>
-                <a href="hero.html"
+                <nuxt-link to="/hero"
                   ><img
                     class="hero-icon-sm rounded-circle border"
                     src="~/assets/img/heroes/skaarf.png"
                     alt="skaarf"
                   />
-                  スカーフ</a
+                  スカーフ</nuxt-link
                 >
               </td>
               <td>CP</td>
@@ -174,13 +174,13 @@
             <tr>
               <th scope="row">4</th>
               <td>
-                <a href="hero.html"
+                <nuxt-link to="/hero"
                   ><img
                     class="hero-icon-sm rounded-circle border"
                     src="~/assets/img/heroes/ringo.png"
                     alt="ringo"
                   />
-                  リンゴ</a
+                  リンゴ</nuxt-link
                 >
               </td>
               <td>CP</td>
@@ -195,13 +195,13 @@
             <tr>
               <th scope="row">5</th>
               <td>
-                <a href="hero.html"
+                <nuxt-link to="/hero"
                   ><img
                     class="hero-icon-sm rounded-circle border"
                     src="~/assets/img/heroes/varya.png"
                     alt="varya"
                   />
-                  ヴァーリア</a
+                  ヴァーリア</nuxt-link
                 >
               </td>
               <td>CP</td>
@@ -216,13 +216,13 @@
             <tr>
               <th scope="row">6</th>
               <td>
-                <a href="hero.html"
+                <nuxt-link to="/hero"
                   ><img
                     class="hero-icon-sm rounded-circle border"
                     src="~/assets/img/heroes/malene.png"
                     alt="malene"
                   />
-                  マレン</a
+                  マレン</nuxt-link
                 >
               </td>
               <td>CP</td>
@@ -237,13 +237,13 @@
             <tr>
               <th scope="row">7</th>
               <td>
-                <a href="hero.html"
+                <nuxt-link to="/hero"
                   ><img
                     class="hero-icon-sm rounded-circle border"
                     src="~/assets/img/heroes/samuel.png"
                     alt="samuel"
                   />
-                  サムエル</a
+                  サムエル</nuxt-link
                 >
               </td>
               <td>CP</td>
@@ -258,13 +258,13 @@
             <tr>
               <th scope="row">8</th>
               <td>
-                <a href="hero.html"
+                <nuxt-link to="/hero"
                   ><img
                     class="hero-icon-sm rounded-circle border"
                     src="~/assets/img/heroes/vox.png"
                     alt="vox"
                   />
-                  ヴォックス</a
+                  ヴォックス</nuxt-link
                 >
               </td>
               <td>CP</td>
@@ -279,13 +279,13 @@
             <tr>
               <th scope="row">9</th>
               <td>
-                <a href="hero.html"
+                <nuxt-link to="/hero"
                   ><img
                     class="hero-icon-sm rounded-circle border"
                     src="~/assets/img/heroes/skye.png"
                     alt="skye"
                   />
-                  スカイ</a
+                  スカイ</nuxt-link
                 >
               </td>
               <td>CP</td>

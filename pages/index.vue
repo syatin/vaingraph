@@ -12,8 +12,8 @@
       <h5>勝率 Top10</h5>
       <p>
         条件：5v5、全地域、Tier9以上、200試合以上<br />
-        <a class="btn btn-sm btn-info shadow-sm" href="ranking.html"
-          >ヒーローランキング</a
+        <nuxt-link class="btn btn-sm btn-info shadow-sm" to="ranking.html"
+          >ヒーローランキング</nuxt-link
         >
         で詳細な比較が出来ます。
       </p>
@@ -34,13 +34,13 @@
           <tr>
             <th scope="row">1</th>
             <td>
-              <a href="hero.html"
+              <nuxt-link to="/hero"
                 ><img
                   class="hero-icon-sm rounded-circle border"
                   src="~/assets/img/heroes/celeste.png"
                   alt="celeste"
                 />
-                セレス</a
+                セレス</nuxt-link
               >
             </td>
             <td>Mid</td>
@@ -50,13 +50,13 @@
           <tr>
             <th scope="row">2</th>
             <td>
-              <a href="hero.html"
+              <nuxt-link to="/hero"
                 ><img
                   class="hero-icon-sm rounded-circle border"
                   src="~/assets/img/heroes/ardan.png"
                   alt="ardan"
                 />
-                アーダン</a
+                アーダン</nuxt-link
               >
             </td>
             <td>Captain</td>
@@ -66,13 +66,13 @@
           <tr>
             <th scope="row">3</th>
             <td>
-              <a href="hero.html"
+              <nuxt-link to="/hero"
                 ><img
                   class="hero-icon-sm rounded-circle border"
                   src="~/assets/img/heroes/ozo.png"
                   alt="ozo"
                 />
-                オゾ</a
+                オゾ</nuxt-link
               >
             </td>
             <td>Captain</td>
@@ -82,13 +82,13 @@
           <tr>
             <th scope="row">4</th>
             <td>
-              <a href="hero.html"
+              <nuxt-link to="/hero"
                 ><img
                   class="hero-icon-sm rounded-circle border"
                   src="~/assets/img/heroes/baptiste.png"
                   alt="baptiste"
                 />
-                バティスト</a
+                バティスト</nuxt-link
               >
             </td>
             <td>Captain</td>
@@ -98,13 +98,13 @@
           <tr>
             <th scope="row">5</th>
             <td>
-              <a href="hero.html"
+              <nuxt-link to="/hero"
                 ><img
                   class="hero-icon-sm rounded-circle border"
                   src="~/assets/img/heroes/petal.png"
                   alt="petal"
                 />
-                ペタル</a
+                ペタル</nuxt-link
               >
             </td>
             <td>Captain</td>
@@ -114,13 +114,13 @@
           <tr>
             <th scope="row">6</th>
             <td>
-              <a href="hero.html"
+              <nuxt-link to="/hero"
                 ><img
                   class="hero-icon-sm rounded-circle border"
                   src="~/assets/img/heroes/flicker.png"
                   alt="flicker"
                 />
-                フリッカー</a
+                フリッカー</nuxt-link
               >
             </td>
             <td>Captain</td>
@@ -130,13 +130,13 @@
           <tr>
             <th scope="row">7</th>
             <td>
-              <a href="hero.html"
+              <nuxt-link to="/hero"
                 ><img
                   class="hero-icon-sm rounded-circle border"
                   src="~/assets/img/heroes/skaarf.png"
                   alt="skaarf"
                 />
-                スカーフ</a
+                スカーフ</nuxt-link
               >
             </td>
             <td>Captain</td>
@@ -146,13 +146,13 @@
           <tr>
             <th scope="row">8</th>
             <td>
-              <a href="hero.html"
+              <nuxt-link to="/hero"
                 ><img
                   class="hero-icon-sm rounded-circle border"
                   src="~/assets/img/heroes/skaarf.png"
                   alt="skaarf"
                 />
-                スカーフ</a
+                スカーフ</nuxt-link
               >
             </td>
             <td>Captain</td>
@@ -162,13 +162,13 @@
           <tr>
             <th scope="row">9</th>
             <td>
-              <a href="hero.html"
+              <nuxt-link to="/hero"
                 ><img
                   class="hero-icon-sm rounded-circle border"
                   src="~/assets/img/heroes/skaarf.png"
                   alt="skaarf"
                 />
-                スカーフ</a
+                スカーフ</nuxt-link
               >
             </td>
             <td>Captain</td>
@@ -178,13 +178,13 @@
           <tr>
             <th scope="row">10</th>
             <td>
-              <a href="hero.html"
+              <nuxt-link to="/hero"
                 ><img
                   class="hero-icon-sm rounded-circle border"
                   src="~/assets/img/heroes/skaarf.png"
                   alt="skaarf"
                 />
-                スカーフ</a
+                スカーフ</nuxt-link
               >
             </td>
             <td>Captain</td>
@@ -209,12 +209,12 @@
         <tbody>
           <tr>
             <th scope="row">1</th>
-            <td><a href="hero.html">セレス</a></td>
+            <td><nuxt-link to="/hero">セレス</nuxt-link></td>
             <td>40%</td>
           </tr>
           <tr>
             <th scope="row">2</th>
-            <td><a href="hero.html">アーダン</a></td>
+            <td><nuxt-link to="/hero">アーダン</nuxt-link></td>
             <td>35%</td>
           </tr>
         </tbody>
@@ -222,36 +222,3 @@
     </div>
   </main>
 </template>
-
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
